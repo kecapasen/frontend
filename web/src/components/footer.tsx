@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="flex flex-col font-poppins font-bold text-white bg-stone-950">
-      <div className="p-2 sm:p-16 flex justify-between">
-        <div className="flex flex-col gap-8 max-w-[40%]">
+      <div className="px-4 pt-16 sm:p-16 flex flex-col sm:flex-row gap-8 sm:gap-0 justify-between">
+        <div className="flex flex-col gap-4 sm:gap-8 w-full sm:max-w-[40%]">
           <p className="text-3xl">Tasty Food</p>
           <p className="font-normal text-sm text-stone-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
@@ -35,7 +35,7 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4 sm:gap-8">
           <p className="text-lg">Useful Links</p>
           <div className="flex flex-col gap-4">
             <p className="font-normal text-sm">Blog</p>
@@ -44,7 +44,7 @@ export default function Footer() {
             <p className="font-normal text-sm">Testimonial</p>
           </div>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4 sm:gap-8">
           <p className="text-lg">Privacy</p>
           <div className="flex flex-col gap-4">
             <p className="font-normal text-sm">Kasir</p>
@@ -53,7 +53,7 @@ export default function Footer() {
             <p className="font-normal text-sm">Servis</p>
           </div>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4 sm:gap-8">
           <p className="text-lg">Contact Info</p>
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
@@ -94,7 +94,8 @@ export default function Footer() {
       </div>
       <div className="flex justify-center items-center p-8">
         <p className="font-normal text-sm text-stone-200">
-          &copy; 2024 Rizky Maulana. All rights reserved
+          &copy; {new Date().getFullYear().toString()} Rizky Maulana. All rights
+          reserved
         </p>
       </div>
     </div>

@@ -44,7 +44,7 @@ export default function Home() {
   const numberOfPages = Math.ceil(BeritaSeeder.length / ItemsPerPage);
   return (
     <div className="min-h-dvh overflow-x-hidden font-poppins font-bold text-stone-800 relative">
-      <div className="px-4 py-16 sm:px-16 bg-slate-100 z-50">
+      <div className="p-4 sm:p-16 bg-slate-100 z-50">
         <div className="relative flex flex-row-reverse sm:flex-row justify-between sm:justify-start items-center gap-2 sm:gap-4">
           <p className="text-lg">TASTY FOOD</p>
           <Sheet>
